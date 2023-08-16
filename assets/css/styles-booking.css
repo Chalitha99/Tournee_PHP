@@ -1,0 +1,216 @@
+@font-face {
+    font-family: Audiowide;
+    src: url(../../assets/fonts/l7gdbjpo0cum0ckerWCdmA_OIxo.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Audiowide;
+    src: url(../../assets/fonts/l7gdbjpo0cum0ckerWCdlg_O.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+.navigation-clean-button {
+    background: #fff;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #333;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0
+}
+
+@media (min-width:768px) {
+    .navigation-clean-button {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+}
+
+.navigation-clean-button .navbar-brand {
+    font-weight: 700;
+    color: inherit
+}
+
+.navigation-clean-button .navbar-brand:hover {
+    color: #222
+}
+
+.navigation-clean-button .navbar-toggler {
+    border-color: #ddd;
+    color: #888
+}
+
+.navigation-clean-button .navbar-toggler:focus,
+.navigation-clean-button .navbar-toggler:hover {
+    background: 0 0
+}
+
+.navigation-clean-button .form-inline,
+.navigation-clean-button .navbar-collapse {
+    border-top-color: #ddd
+}
+
+.navigation-clean-button .navbar-nav a.active,
+.navigation-clean-button .navbar-nav>.show>a {
+    background: 0 0;
+    box-shadow: none
+}
+
+.navigation-clean-button.navbar-light .navbar-nav a.active,
+.navigation-clean-button.navbar-light .navbar-nav a.active:focus,
+.navigation-clean-button.navbar-light .navbar-nav a.active:hover {
+    color: #8f8f8f;
+    box-shadow: none;
+    background: 0 0;
+    pointer-events: none
+}
+
+.navigation-clean-button.navbar .navbar-nav .nav-link {
+    padding-left: 18px;
+    padding-right: 18px
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link {
+    color: #465765
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:focus,
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
+    color: #37434d !important;
+    background-color: transparent
+}
+
+footer {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 80px;
+    bottom: 0;
+    color: #fff
+}
+
+.footer-navigation h3 {
+    margin: 0 0 20px;
+    font: 36px Cookie, cursive;
+    color: #fff
+}
+
+.footer-navigation h3 a {
+    text-decoration: none;
+    color: #fff
+}
+
+.footer-navigation h3 span {
+    color: #5383d3
+}
+
+.footer-navigation p.links a {
+    color: #fff;
+    text-decoration: none
+}
+
+.footer-navigation p.company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px
+}
+
+@media (max-width:767px) {
+    .footer-contacts {
+        margin: 30px 0
+    }
+}
+
+.footer-contacts p {
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle
+}
+
+.footer-contacts p a {
+    color: #5383d3;
+    text-decoration: none
+}
+
+.fa.footer-contacts-icon {
+    background-color: #33383b;
+    color: #fff;
+    font-size: 18px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin: 10px 15px 10px 0
+}
+
+span.new-line-span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2
+}
+
+.footer-about h4 {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+
+.footer-about p {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0
+}
+
+div.social-links {
+    margin-top: 20px;
+    color: #fff
+}
+
+.social-links a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px
+}
+
+.btn-tour {
+    background-color: #0a6413;
+    border-color: #0a6413;
+    font-weight: 600
+}
+
+.btn-tour:hover {
+    background-color: #fbfbfb;
+    color: #0a6413
+}
+
+.nav-item {
+    color: #fff
+}
